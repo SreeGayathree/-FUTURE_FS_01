@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sree Gayathree | Portfolio</title>
+
+<meta name="description" content="Sree Gayathree - Full Stack Developer Portfolio">
+<meta name="keywords" content="Portfolio, Full Stack Developer, Web Developer, Sree Gayathree">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:#1e293b;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.hero-content h1{
+    font-size:55px;
+}
+
+.hero-content span{
+    color:#38bdf8;
+}
+
+.hero-content h2{
+    margin:15px 0;
+    color:#94a3b8;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#38bdf8;
+    font-size:35px;
+}
+
+.about{
+    text-align:center;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-5px);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+}
+
+.project-card h3{
+    color:#38bdf8;
+}
+
+.timeline{
+    background:#1e293b;
+    padding:25px;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-form{
+    max-width:600px;
+    margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.contact-form button{
+    width:100%;
+    padding:15px;
+    background:#38bdf8;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+    background:#0ea5e9;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e293b;
+}
+
+.social a{
+    color:#38bdf8;
+    text-decoration:none;
+    margin:0 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Sree Gayathree</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm <span>Sree Gayathree</span></h1>
+        <h2>Full Stack Developer</h2>
+
+        <p>
+            Passionate Computer Science Engineering student with a strong
+            interest in Full Stack Development, modern web technologies,
+            and creating innovative digital solutions.
+        </p>
+
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="#" class="btn">Download Resume</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about">
+        <p>
+            I am Sree Gayathree, an aspiring Full Stack Developer.
+            I enjoy building responsive websites and web applications.
+            Currently enhancing my skills through internships,
+            certifications, and hands-on projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React JS</div>
+        <div class="skill-card">Node JS</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                Designed and developed a responsive portfolio website
+                showcasing skills, projects, and professional profile.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>
+                Web-based application to manage student records,
+                attendance, and academic information.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <p>
+                Built a modern online shopping platform using
+                Full Stack technologies.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+        <h3>Bachelor of Computer Science and Engineering</h3>
+        <p>Engineering Student</p>
+        <br>
+
+        <h3>Internship</h3>
+        <p>Frontend Developer Intern - Virtunexa</p>
+
+        <br>
+
+        <h3>Current Internship</h3>
+        <p>Full Stack Development Intern - Future Intern</p>
+
+        <br>
+
+        <h3>Certification</h3>
+        <p>Progressive Hands-on App Development</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact">
+
+        <p><strong>Email:</strong> sreegayu.912@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9342430353</p>
+        <p><strong>Location:</strong> Pollachi, Tamil Nadu</p>
+
+        <br>
+
+        <div class="social">
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://github.com">GitHub</a>
+        </div>
+
+        <br>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sree Gayathree | Full Stack Developer Portfolio</p>
+</footer>
+
+<script>
+document.querySelector(".contact-form").addEventListener("submit", function(e){
+    e.preventDefault();
+    alert("Thank you! Your message has been submitted.");
+});
+</script>
+
+</body>
+</html>
